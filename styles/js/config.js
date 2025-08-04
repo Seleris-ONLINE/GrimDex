@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Phantogrims",
-  url: "https://www.phantogrims.com/",
+  url: "https://phantogrims.netlify.app/",
   description: `A closed species centered around beings originating from the seventh circle of hell.`
 }
 
