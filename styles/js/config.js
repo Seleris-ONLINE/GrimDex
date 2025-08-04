@@ -46,8 +46,9 @@ charadex.sheet = {
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     rarity: ['All', 'Basic', 'Bronze', 'Silver', 'Gilded', 'Platinum'],
     species: ['All', 'Phantogrim', 'Greater Phantogrim'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Upgrade', 'Misc'],
-    traitTypes: ['All', 'Basic', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc']
+    itemTypes: ['All', 'Currency', 'MYO Slot', 'Upgrade', 'Pet', 'Misc'],
+    traitTypes: ['All', 'Basic', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc'],
+    promptCategory: ['All', 'Permanent', 'Monthly', 'Event']
   }
 
 }
@@ -98,7 +99,7 @@ charadex.page.items = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Item', 'Rarity']
+    parameters: ['All', 'Item', 'Rarity', 'Price']
   },
 
   prevNext: {
@@ -147,7 +148,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Trait', 'Rarity', 'Item']
   },
 
   prevNext: {
@@ -187,15 +188,15 @@ charadex.page.prompts = {
   },
 
   fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
+    toggle: true,
+    folderProperty: 'Category',
+    parameters: charadex.sheet.options.promptCategory,
   },
 
   search: {
     toggle: true,
     filterToggle: false,
-    parameters: ['Title']
+    parameters: ['All', 'Title', 'Description']
   },
 
   prevNext: {
