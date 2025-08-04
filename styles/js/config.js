@@ -47,7 +47,7 @@ charadex.sheet = {
     rarity: ['All', 'Basic', 'Bronze', 'Silver', 'Gilded', 'Platinum'],
     species: ['All', 'Phantogrim', 'Greater Phantogrim'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Upgrade', 'Pet', 'Misc'],
-    traitCategories: ['All', 'Basic', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc'],
+    traitCategories: ['All', 'Basic', 'Head', 'Body', 'Limbs', 'Tails', 'Misc'],
     promptCategory: ['All', 'Permanent', 'Monthly', 'Event']
   }
 
@@ -134,8 +134,8 @@ charadex.page.traits = {
   filters: {
     toggle: true,
     parameters: {
-      'Category': charadex.sheet.options.traitCategories,
       'Rarity': charadex.sheet.options.rarity,
+      'Category': charadex.sheet.options.traitCategories,
     }
   },
 
