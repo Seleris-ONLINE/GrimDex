@@ -69,20 +69,20 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-basic-bg: #797979;
+  --cd-rarity-basic-bg: #6d6363;
   --cd-rarity-basic-txt: #fff;
 
-  --cd-rarity-bronze-bg: #513b0e;
-  --cd-rarity-bronze-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-bronze-bg: #725418;
+  --cd-rarity-bronze-txt: var(--cd-rarity-basic-txt);
   
   --cd-rarity-silver-bg: #919ca1;
-  --cd-rarity-silver-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-silver-txt: var(--cd-rarity-basic-txt);
 
-  --cd-rarity-gilded-bg: #e6c62b;
-  --cd-rarity-gilded-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-gilded-bg: #d1b421;
+  --cd-rarity-gilded-txt: var(--cd-rarity-basic-txt);
 
   /* Legendary & Mythic */
-  --cd-rarity-platinum-bg: #badbf5;
+  --cd-rarity-platinum-bg: #E5E4E2;
   --cd-rarity-platinum-txt: #111;
 
 
@@ -750,28 +750,27 @@ p:last-child {
 /* Rarity
 /* ============================================================= */
 
-.badge-common {
-  background-color: var(--cd-rarity-common-bg);
-  color: var(--cd-rarity-common-txt);
+.badge-basic {
+  background-color: var(--cd-rarity-basic-bg);
+  color: var(--cd-rarity-basic-txt);
 }
 
-.badge-uncommon {
-  background-color: var(--cd-rarity-uncommon-bg);
-  color: var(--cd-rarity-uncommon-txt);
+.badge-bronze {
+  background-color: var(--cd-rarity-bronze-bg);
+  color: var(--cd-rarity-bronze-txt);
 }
 
-.badge-rare {
-  background-color: var(--cd-rarity-rare-bg);
-  color: var(--cd-rarity-rare-txt);
+.badge-silver {
+  background-color: var(--cd-rarity-silver-bg);
+  color: var(--cd-rarity-silver-txt);
 }
 
-.badge-veryrare {
-  background-color: var(--cd-rarity-veryrare-bg);
-  color: var(--cd-rarity-veryrare-txt);
+.badge-gilded {
+  background-color: var(--cd-rarity-gilded-bg);
+  color: var(--cd-rarity-gilded-txt);
 }
 
-.badge-legendary,
-.badge-mythic {
-  background-color: var(--cd-rarity-legendary-bg);
-  color: var(--cd-rarity-legendary-txt);
+.badge-platinum {
+  background-color: var(--cd-rarity-platinum-bg);
+  color: var(--cd-rarity-platinum-txt);
 }
