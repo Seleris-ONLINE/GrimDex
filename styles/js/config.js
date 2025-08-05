@@ -43,11 +43,11 @@ charadex.sheet = {
   options: {
 
     designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    statuses: ['All', 'Voided', 'Purchased'],
     rarity: ['All', 'Basic', 'Bronze', 'Silver', 'Gilded', 'Platinum'],
     species: ['All', 'Phantogrim', 'Greater Phantogrim'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Upgrade', 'Pet', 'Misc'],
-    traitCategories: ['All', 'Basic', 'Head', 'Body', 'Limbs', 'Tails', 'Misc'],
+    traitCategories: ['All', 'Basic', 'Head', 'Body', 'Tails', 'Misc'],
     promptCategory: ['All', 'Permanent', 'Monthly', 'Event']
   }
 
